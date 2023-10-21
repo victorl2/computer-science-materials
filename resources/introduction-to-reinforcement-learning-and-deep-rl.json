@@ -1,0 +1,77 @@
+{
+    "course_details": {
+        "source": "Google DeepMind",
+        "title": "Introduction to RL and deep RL",
+        "course_id": null,
+        "professors": "Hado van Hasselt, Diana Borsa & Matteo Hessel",
+        "website_url" : "https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021",
+        "year": 2021
+    },
+    "lectures":[
+        {
+            "number": 1,
+            "description": "Introduction to Reinforcement Learning",
+            "video_url": "https://www.youtube.com/watch?v=TCCjZe0y4Qc"
+        },
+        {
+            "number": 2,
+            "description": "Exploration & Control",
+            "video_url": "https://www.youtube.com/watch?v=aQJP3Z2Ho8U"
+        },
+        {
+            "number": 3,
+            "description": "MDPs & Dynamic Programming",
+            "video_url": "https://www.youtube.com/watch?v=zSOMeug_i_M"
+        },
+        {
+            "number": 4,
+            "description": "Theoretical Fundamentals of Dynamic Programming Algorithms",
+            "video_url": "https://www.youtube.com/watch?v=XpbLq7rIJAA"
+        },
+        {
+            "number": 5,
+            "description": "Model-free Prediction",
+            "video_url": "https://www.youtube.com/watch?v=eaWfWoVUTEw"
+        },
+        {
+            "number": 6,
+            "description": "Model-free Control",
+            "video_url": "https://www.youtube.com/watch?v=t9uf9cuogBo"
+        },
+        {
+            "number": 7,
+            "description": "Function Approximation",
+            "video_url": "https://www.youtube.com/watch?v=ook46h2Jfb4"
+        },
+        {
+            "number": 8,
+            "description": "Planning & models",
+            "video_url": "https://www.youtube.com/watch?v=FKl8kM4finE"
+        },
+        {
+            "number": 9,
+            "description": "Policy-Gradient & Actor-Critic methods",
+            "video_url": "https://www.youtube.com/watch?v=y3oqOjHilio"
+        },
+        {
+            "number": 10,
+            "description": "Approximate Dynamic Programming",
+            "video_url": "https://www.youtube.com/watch?v=AJejcug2brU"
+        },
+        {
+            "number": 11,
+            "description": "Multi-step & Off Policy",
+            "video_url": "https://www.youtube.com/watch?v=u84MFu1nG4g"
+        },
+        {
+            "number": 12,
+            "description": "Deep Reinforcement Learning #1",
+            "video_url": "https://www.youtube.com/watch?v=cVzvNZOBaJ4"
+        },
+        {
+            "number": 13,
+            "description": "Deep Reinforcement Learning #2",
+            "video_url": "https://www.youtube.com/watch?v=siDtNqlPoLk"
+        }
+    ]
+}

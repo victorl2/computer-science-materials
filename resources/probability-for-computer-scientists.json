@@ -3,7 +3,7 @@
         "source": "Stanford School of Engineering",
         "title": "Introduction to Probability for Computer Scientists",
         "course_id": "CS109",
-        "professor": "Chris Piech",
+        "professors": "Chris Piech",
         "website_url" : "https://online.stanford.edu/courses/cs109-introduction-probability-computer-scientists",
         "supporting_material": "https://chrispiech.github.io/probabilityForComputerScientists/en/part1/counting/",
         "year": 2022
