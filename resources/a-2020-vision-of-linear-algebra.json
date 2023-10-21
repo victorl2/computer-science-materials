@@ -1,0 +1,47 @@
+{
+    "course_details": {
+        "source": "MIT - Massachusetts Institute of Technology",
+        "title": "A 2020 Vision of Linear Algebra",
+        "course_id": "RES.18-010",
+        "professor": "Gilbert Strang",
+        "website_url" : "https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/",
+        "year": 2020
+    },
+    "lectures":[
+        {
+            "number": 1,
+            "description": "Intro: A New Way to Start Linear Algebra",
+            "video_url": "https://www.youtube.com/watch?v=YrHlHbtiSM0"
+        },
+        {
+            "number": 2,
+            "description": "The Column Space of a Matrix",
+            "video_url": "https://www.youtube.com/watch?v=azzrfdysfI0"
+        },
+        {
+            "number": 3,
+            "description": "The Big Picture of Linear Algebra",
+            "video_url": "https://www.youtube.com/watch?v=rwLOfdfc4dw"
+        },
+        {
+            "number": 4,
+            "description": "Orthogonal Vectors",
+            "video_url": "https://www.youtube.com/watch?v=j8hEnyOiwhw"
+        },
+        {
+            "number": 5,
+            "description": "Eigenvalues and Eigenvectors",
+            "video_url": "https://www.youtube.com/watch?v=GyC3gl6weYo"
+        },
+        {
+            "number": 6,
+            "description": "Singular Values and Singular Vectors",
+            "video_url": "https://www.youtube.com/watch?v=IHO7_n7Y09s"
+        },
+        {
+            "number": 6,
+            "description": "Finding the Nullspace: Solving Ax = 0 by Elimination",
+            "video_url": "https://www.youtube.com/watch?v=JFIaRtKNP2E"
+        }
+    ]
+}
