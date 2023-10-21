@@ -1,0 +1,151 @@
+{
+    "course_details": {
+        "source": "Stanford School of Engineering",
+        "title": "Introduction to Probability for Computer Scientists",
+        "course_id": "CS109",
+        "website_url" : "https://online.stanford.edu/courses/cs109-introduction-probability-computer-scientists",
+        "year": 2022
+    },
+    "lectures":[
+        {
+            "number": 1,
+            "description": "Counting",
+            "video_url": "https://www.youtube.com/watch?v=2MuDZIAzBMY"
+        },
+        {
+            "number": 2,
+            "description": "Combinatorics",
+            "video_url": "https://www.youtube.com/watch?v=ag4Ei15CG0c"
+        },
+        {
+            "number": 3,
+            "description": "What is Probability?",
+            "video_url": "https://www.youtube.com/watch?v=EGgMCE2AgyU"
+        },
+        {
+            "number": 4,
+            "description": "Conditional Probability and Bayes",
+            "video_url": "https://www.youtube.com/watch?v=NHRoXvPaZqY"
+        },
+        {
+            "number": 5,
+            "description": "Independence",
+            "video_url": "https://www.youtube.com/watch?v=zTJDZ2wmaRU"
+        },
+        {
+            "number": 6,
+            "description": "Random Variables and Expectation",
+            "video_url": "https://www.youtube.com/watch?v=8QCg2ur-3fo"
+        },
+        {
+            "number": 7,
+            "description": "Variance Bernoulli Binomial",
+            "video_url": "https://www.youtube.com/watch?v=I2UBspTNAG0"
+        },
+        {
+            "number": 8,
+            "description": "Poisson",
+            "video_url": "https://www.youtube.com/watch?v=QV3IRiG6dVs"
+        },
+        {
+            "number": 9,
+            "description": "Continuous Random Variables",
+            "video_url": "https://www.youtube.com/watch?v=OFgBn4rQkqc"
+        },
+        {
+            "number": 10,
+            "description": "Normal Distribution",
+            "video_url": "https://www.youtube.com/watch?v=rpB_NNXiWlM"
+        },
+        {
+            "number": 11,
+            "description": "Joint Distributions",
+            "video_url": "https://www.youtube.com/watch?v=8Il2M7kbQSc"
+        },
+        {
+            "number": 12,
+            "description": "Inference",
+            "video_url": "https://www.youtube.com/watch?v=fvgQBAsg5Zo"
+        },
+        {
+            "number": 13,
+            "description": "Inference II",
+            "video_url": "https://www.youtube.com/watch?v=d0ImA7m4BEg"
+        },
+        {
+            "number": 14,
+            "description": "Modelling",
+            "video_url": "https://www.youtube.com/watch?v=q9lk8l8P-E4"
+        },
+        {
+            "number": 15,
+            "description": "General Inference",
+            "video_url": "https://www.youtube.com/watch?v=c0QGjtu9GZg"
+        },
+        {
+            "number": 16,
+            "description": "Beta",
+            "video_url": "https://www.youtube.com/watch?v=aOhk9mFrHdU"
+        },
+        {
+            "number": 17,
+            "description": "Adding Random Variables",
+            "video_url": "https://www.youtube.com/watch?v=UEyHbI9FRtM"
+        },
+        {
+            "number": 18,
+            "description": "Central Limit Theorem",
+            "video_url": "https://www.youtube.com/watch?v=6Q9wT6JGMMM"
+        },
+        {
+            "number": 19,
+            "description": "Bootstraping and P-Values",
+            "video_url": "https://www.youtube.com/watch?v=NXJwyPT1vsc"
+        },
+        {
+            "number": 20,
+            "description": "Algorithmic Analysis",
+            "video_url": "https://www.youtube.com/watch?v=Ht9yUPtppwY"
+        },
+        {
+            "number": 21,
+            "description": "M.L.E.",
+            "video_url": "https://www.youtube.com/watch?v=utFEufMXHgw"
+        },
+        {
+            "number": 22,
+            "description": "M.A.P.",
+            "video_url": "https://www.youtube.com/watch?v=sL1zOr-P4xc"
+        },
+        {
+            "number": 23,
+            "description": "Naive Bayes",
+            "video_url": "https://www.youtube.com/watch?v=yqF3DvDVpvw"
+        },
+        {
+            "number": 24,
+            "description": "Logistic Regression",
+            "video_url": "https://www.youtube.com/watch?v=ILqZWvDWKEc"
+        },
+        {
+            "number": 25,
+            "description": "Deep Learning",
+            "video_url": "https://www.youtube.com/watch?v=MSfI6TTgyl4"
+        },
+        {
+            "number": 26,
+            "description": "Fairness",
+            "video_url": "https://www.youtube.com/watch?v=cbzwbr5H_LA"
+        },
+        {
+            "number": 27,
+            "description": "Advanced Probability",
+            "video_url": "https://www.youtube.com/watch?v=BquE8Z9htws"
+        },
+        {
+            "number": 28,
+            "description": "Future of Probability",
+            "video_url": "https://www.youtube.com/watch?v=SoXygq5LtiM"
+        }
+    ]
+}
