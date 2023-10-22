@@ -11,7 +11,7 @@ Courses and other resources with a focus on **Computer Science**, **Artificial I
 
 
 # Project structure
-This repository contains the required information to start learning about the topics mentioned above. All for **courses** and **research papers** are in a pre-defined json format, that are easily parsed by the scripts in the `scripts` folder, or directly read by humans. The format for the json is as follows: 
+This repository contains the required information to start learning about the topics mentioned above. All for **courses** and **research papers** are in a pre-defined json format, those are easily parsed by the scripts in the `scripts` folder, or directly read by humans. The format for the json files is as follows: 
 
 ### Course's json
 ```json
@@ -34,7 +34,7 @@ This repository contains the required information to start learning about the to
 }
 ```
 
-### papers's json
+### Papers's json
 ```json
 {
     "title": "title for the paper/article",
