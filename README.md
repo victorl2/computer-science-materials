@@ -1,18 +1,21 @@
 # Computer Science Materials
 Courses, articles and research papers with a focus on **Computer Science**, **Artificial Inteligence** and **Math curated** by [**me**](www.github.com/victorl2)
 
-# Courses
+## Courses
 + [Introduction to Probability for Computer Scientists.](/resources/courses/probability-for-computer-scientists.json)
 + [A 2020 Vision of Linear Algebra.](/resources/courses/a-2020-vision-of-linear-algebra.json) ( by Gilbert Strang - MIT )
 + [Introduction to Reinforcement Learning and deep RL.](/resources/courses/introduction-to-reinforcement-learning-and-deep-rl.json) ( Hado van Hasselt, Diana Borsa & Matteo Hessel - DeepMind )
 
-# Papers
+## Papers
 + [Eureka: Human-Level Reward Design via Coding Large Language Models.](/resources/papers/human-level-reward-design-via-coding-llm.json)
 
-# Articles
+## Articles
 + [How AI voice cloning works ?](/resources/articles/how-voice-cloning-works.MD)
 
-# Project structure
+## Download the materials
+You can download the courses, articles and papers referenced here by using the [**download.py**](/scripts/download.py) script. The script will download all the files; some videos are very long, so it may take a while for everything to finish. 
+
+## Project structure
 This repository contains the required information to start learning about the topics mentioned above. All files for [**courses**](/resources/courses/) and [**research papers**](/resources/papers/) are in a pre-defined json format, those are easily parsed by the scripts in the `scripts` folder, or directly read by humans. The [**articles**](/resources/articles/) are in the [markdown format](https://en.wikipedia.org/wiki/Markdown). The format for the json files is as follows: 
 
 ### Course's json
