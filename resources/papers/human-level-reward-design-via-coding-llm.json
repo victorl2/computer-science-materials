@@ -1,0 +1,7 @@
+{
+    "title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+    "paper_url": "https://arxiv.org/abs/2310.12931",
+    "code_repository": "https://github.com/eureka-research/Eureka",
+    "project_page": "https://eureka-research.github.io",
+    "topics": ["Reinforcement Learning", "Natural Language Processing", "Reward Design", "Language Models"]
+}
