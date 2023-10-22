@@ -13,7 +13,7 @@ Courses, articles and research papers with a focus on **Computer Science**, **Ar
 + [How AI voice cloning works ?](/resources/articles/how-voice-cloning-works.MD)
 
 # Project structure
-This repository contains the required information to start learning about the topics mentioned above. All for **courses** and **research papers** are in a pre-defined json format, those are easily parsed by the scripts in the `scripts` folder, or directly read by humans. The format for the json files is as follows: 
+This repository contains the required information to start learning about the topics mentioned above. All files for [**courses**](/resources/courses/) and [**research papers**](/resources/papers/) are in a pre-defined json format, those are easily parsed by the scripts in the `scripts` folder, or directly read by humans. The [**articles**](/resources/articles/) are in the [markdown format](https://en.wikipedia.org/wiki/Markdown). The format for the json files is as follows: 
 
 ### Course's json
 ```json
