@@ -1,14 +1,16 @@
 # Computer Science Materials
-Courses and other resources with a focus on **Computer Science**, **Artificial Inteligence** and **Math curated** by [**me**](www.github.com/victorl2)
+Courses, articles and research papers with a focus on **Computer Science**, **Artificial Inteligence** and **Math curated** by [**me**](www.github.com/victorl2)
 
-# Courses included
-+ Introduction to Probability for Computer Scientists.
-+ A 2020 Vision of Linear Algebra. ( by Gilbert Strang - MIT )
-+ Introduction to Reinforcement Learning and deep RL. ( Hado van Hasselt, Diana Borsa & Matteo Hessel - DeepMind )
+# Courses
++ [Introduction to Probability for Computer Scientists.](/resources/courses/probability-for-computer-scientists.json)
++ [A 2020 Vision of Linear Algebra.](/resources/courses/a-2020-vision-of-linear-algebra.json) ( by Gilbert Strang - MIT )
++ [Introduction to Reinforcement Learning and deep RL.](/resources/courses/introduction-to-reinforcement-learning-and-deep-rl.json) ( Hado van Hasselt, Diana Borsa & Matteo Hessel - DeepMind )
 
-# Papers included
-+ Eureka: Human-Level Reward Design via Coding Large Language Models.
+# Papers
++ [Eureka: Human-Level Reward Design via Coding Large Language Models.](/resources/papers/human-level-reward-design-via-coding-llm.json)
 
+# Articles
++ [How AI voice cloning works ?](/resources/articles/how-voice-cloning-works.MD)
 
 # Project structure
 This repository contains the required information to start learning about the topics mentioned above. All for **courses** and **research papers** are in a pre-defined json format, those are easily parsed by the scripts in the `scripts` folder, or directly read by humans. The format for the json files is as follows: 

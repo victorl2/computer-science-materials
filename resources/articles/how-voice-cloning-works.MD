@@ -1,6 +1,6 @@
 # How AI voice cloning works ? 
 
-_**video:** https://www.youtube.com/watch?v=vhArHsfsLAQ_ ( video about voice cloning, entirely made with voice clone )
+[**video**](https://www.youtube.com/watch?v=vhArHsfsLAQ) _( video about voice cloning, entirely made with voice clone, meta )_
 
 ### References
 + [Tacotron2](https://github.com/BenAAndrew/Voice-Cloning-App)
