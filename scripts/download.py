@@ -2,9 +2,39 @@ import os
 import json
 import requests
 from pytube import YouTube
+import yt_dlp
 import glob
 
-output_dir = "../downloads/"
+output_dir_courses = "../downloads/courses/"
+output_dir_papers = "../downloads/papers/"
+
+def download_with_pytube(video_url, output_path, filename):
+    try:
+        yt = YouTube(video_url)
+        video = yt.streams.get_highest_resolution()
+        video.download(output_path=output_path, filename=filename + ".mp4")
+        return True
+    except Exception as e:
+        return False
+
+def download_with_yt_dlp(video_url, output_path, filename):
+    try:
+        ydl_opts = {
+            'quiet': True,
+            'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+            'outtmpl': os.path.join(output_path, f'{filename}.mp4'),
+            'postprocessors': [{
+                'key': 'FFmpegVideoConvertor',
+                'preferedformat': 'mp4',
+            }],
+        }
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            ydl.download([video_url])
+        return True
+    except Exception as e:
+        print(f"Failed to download with yt_dlp. Error: {e}")
+        return False
+
 
 # Function to convert arXiv abstract URL to PDF URL
 def convert_to_pdf_url(arxiv_url):
@@ -16,14 +46,14 @@ for json_file in glob.glob("../resources/courses/*.json"):
         data = json.load(f)
 
     # Create output directory if it doesn't exist
-    if not os.path.exists(output_dir):
-        os.mkdir(output_dir)
+    if not os.path.exists(output_dir_courses):
+        os.mkdir(output_dir_courses)
 
     # Create folder with the course title if it doesn't exist
     course_title = data["course_details"]["title"]
     print(f"# Downloading course: {course_title}")
 
-    course_output_dir = os.path.join(output_dir, course_title)
+    course_output_dir = os.path.join(output_dir_courses, course_title)
     if not os.path.exists(course_output_dir):
         os.mkdir(course_output_dir)
 
@@ -37,28 +67,22 @@ for json_file in glob.glob("../resources/courses/*.json"):
         lecture_number = lecture["number"]
         lecture_desc = lecture["description"]
         video_url = lecture["video_url"]
-        video_filename = f"Lecture_{lecture_number}.mp4"
-        full_video_path = os.path.join(output_dir, course_title, video_filename)
+        video_filename = f"Lecture_{lecture_number}"
+        full_video_path = os.path.join(output_dir_courses, course_title, video_filename + ".mp4")
         
-        print(f"Downloading lecture {lecture_number}: {lecture_desc} from {video_url}")
-
         if os.path.exists(full_video_path):
-            print(f"Skipping {video_filename}, already exists.")
-            continue
+            continue # Skipping video already exists.
 
         # Download the video
-        try:
-            yt = YouTube(video_url)
-            video = yt.streams.get_highest_resolution()
-            video.download(output_path=course_output_dir, filename=video_filename)
+        print(f"Downloading lecture {lecture_number}: {lecture_desc} from {video_url}")
 
-            # Rename to add extension - sometimes the library doesn't add it
-            #os.rename(os.path.join(course_title, video_filename), full_video_path)
-        except Exception as e:
-            print(f"Failed to download {video_url}. Error: {e}")
+        # Try downloading with pytube first
+        success = download_with_pytube(video_url, course_output_dir, video_filename)
+        if(not success):
+            download_with_yt_dlp(video_url, course_output_dir, video_filename)
 
 # Loop through each JSON file in the /papers directory
-papers_path = os.path.join(output_dir, 'Papers')
+papers_path = os.path.join(output_dir_papers)
 if not os.path.exists(papers_path):
     os.mkdir(papers_path)
 

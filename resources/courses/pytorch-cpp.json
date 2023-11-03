@@ -1,0 +1,47 @@
+{
+    "course_details": {
+        "source": "MIT - Massachusetts Institute of Technology",
+        "title": "PyTorch CPP",
+        "course_id": "",
+        "professors": "Alan Tessier",
+        "website_url" : "",
+        "year": 2021
+    },
+    "lectures":[
+        {
+            "number": 1,
+            "description": "Downloading & Using PyTorch",
+            "video_url": "https://youtu.be/RFq8HweBjHA?si=NqAa3dpR9qCEqjkf"
+        },
+        {
+            "number": 2,
+            "description": "Building a Neural Network",
+            "video_url": "https://youtu.be/E-RbkOJCXUQ?si=0jzsDT9JbLXoAu_v"
+        },
+        {
+            "number": 3,
+            "description": "Transferring Model from Python to C++",
+            "video_url": "https://youtu.be/FECUcaPP23k?si=0mlA_WYh_n9xPgzT"
+        },
+        {
+            "number": 4,
+            "description": "Driving Lane Segmentation with OpenCV & PyTorch",
+            "video_url": "https://youtu.be/IOv9X5q9lf0?si=G98JKgaSHB-61VJq"
+        },
+        {
+            "number": 5,
+            "description": "Installing Torchvision",
+            "video_url": "https://youtu.be/DA76EonfzLg?si=D-JdYT1SRnPUZ1QD"
+        },
+        {
+            "number": 6,
+            "description": "Creating a custom dataset",
+            "video_url": "https://youtu.be/Wjn_bAAQgOw?si=Q7gotCZA2ZREGQvu"
+        },
+        {
+            "number": 7,
+            "description": "Reviewing code (custom datasets)",
+            "video_url": "https://youtu.be/CBgExFDtvfs?si=B-nHd7dAuz2LnaKb"
+        }
+    ]
+}
