@@ -1,5 +1,5 @@
 # Computer Science Materials
-Courses, articles and research papers with a focus on **Computer Science**, **Artificial Inteligence** and **Math curated** by [**me**](www.github.com/victorl2)
+Courses, articles and research papers with a focus on **Computer Science** and **Math curated** by [**me**](www.github.com/victorl2)
 
 ## Courses
 + [Introduction to Probability for Computer Scientists.](/resources/courses/probability-for-computer-scientists.json)
