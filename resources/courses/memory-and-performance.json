@@ -1,1 +1,13 @@
-https://www.youtube.com/watch?v=WDIkqP4JbkE
+{
+    "course_details": {
+        "source": "various sources",
+        "title": "Collection of videos and lectures abour memory and performance for computer applications curated by Victor Silva",
+        "course_id": "",
+        "professors": "",
+        "website_url" : "",
+        "year": 2024
+    },
+    "lectures":[
+      https://www.youtube.com/watch?v=WDIkqP4JbkE
+    ]
+}|
