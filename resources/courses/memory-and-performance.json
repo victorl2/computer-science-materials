@@ -8,6 +8,10 @@
         "year": 2024
     },
     "lectures":[
-      https://www.youtube.com/watch?v=WDIkqP4JbkE
+         {
+            "number": 1,
+            "description": "Cpu Caches and Why You Care by Scott Meyers",
+            "video_url": "https://www.youtube.com/watch?v=WDIkqP4JbkE"
+        },
     ]
-}|
+}
